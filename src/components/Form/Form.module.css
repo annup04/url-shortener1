@@ -1,0 +1,41 @@
+.formstyle {
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
+}
+
+.textfieldContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.textfieldStyle {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 50%;
+  height: 25px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.shortenButton {
+  background-color: #039be5;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .textfieldStyle {
+    width: 60%;
+  }
+}
